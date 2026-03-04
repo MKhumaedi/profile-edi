@@ -348,18 +348,34 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 
 ---
 
-### 🌐 Deploy to Netlify
+### 🌐 Deploy to Vercel
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/said7388/developer-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Mkhumaedi/profile-edi)
 
-**Manual Deployment:**
+### Manual Deployment
 
-1. Sign up at [Netlify](https://www.netlify.com/)
-2. Import your GitHub repository
-3. Build command: `npm run build`
-4. Publish directory: `.next`
-5. Add environment variables in **Site Settings** → **Environment**
+1. Sign up or login to Vercel  
+https://vercel.com
 
+2. Import your GitHub repository  
+https://github.com/Mkhumaedi/profile-edi
+
+3. Configure project settings
+
+Build Command:
+```
+npm run build
+```
+
+Output Directory:
+```
+.next
+```
+
+4. Click **Deploy**
+
+### 🚀 Live Demo
+https://profile-edi.vercel.app
 ---
 
 ### 🐳 Deploy with Docker
