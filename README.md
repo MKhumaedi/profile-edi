@@ -1,6 +1,6 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
+<!-- <p align="center" width="100%">
+    <img height="100" src="">
+</p> -->
 
 <h1 align="center">Developer Portfolio</h1>
 
@@ -39,7 +39,7 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 </p>
 
 <p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
+  <a href="" target="_blank">
     <strong>🚀 View Live Demo</strong>
   </a>
 </p>
