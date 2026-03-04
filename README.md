@@ -162,8 +162,8 @@ pnpm --version  # or npm --version
 ### 1. Fork and Clone the Repository
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/developer-portfolio.git
-cd developer-portfolio
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/profile-edi.git
+cd profile-edi
 ```
 
 ### 2. Install Dependencies
@@ -329,7 +329,7 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 
 ### 🚀 Deploy to Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/said7388/developer-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Mkhumaedi/profile-edi)
 
 **Manual Deployment:**
 
@@ -345,32 +345,6 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 - Preview deployments for PRs
 - Edge runtime support
 - Global CDN and free SSL
-
----
-
-### 🌐 Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Mkhumaedi/profile-edi)
-
-### Manual Deployment
-
-1. Sign up or login to Vercel  
-https://vercel.com
-
-2. Import your GitHub repository  
-https://github.com/Mkhumaedi/profile-edi
-
-3. Configure project settings
-
-Build Command:
-```
-npm run build
-```
-
-Output Directory:
-```
-.next
-```
 
 4. Click **Deploy**
 
