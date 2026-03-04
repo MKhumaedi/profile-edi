@@ -36,4 +36,7 @@ body {
   top: calc(var(--index) * 4rem);
 }
 
+html {
+  scroll-behavior: smooth;
+}
 

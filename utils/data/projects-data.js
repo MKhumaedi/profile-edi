@@ -55,12 +55,21 @@ export const projectsData = [
     },
     {
         id: 7,
-        name: 'Company Profile Web - Kontraktor Peredam Suara Makassar',
+        name: 'Company Profile Web - Kontraktor Peredam Suara Mks',
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
         code: '',
         demo: '',
         role: 'Front-end Developer',
+    },
+    {
+        id: 8,
+        name: 'Aplikasi Website : E- Arsip Management',
+        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer and backend Developer",
+        tools: ['CodeIgniter', 'PHP', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'CRUD', 'MySQL'],
+        code: '',
+        demo: '',
+        role: 'Full Stack Developer',
     }
 ];
 

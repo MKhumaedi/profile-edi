@@ -11,7 +11,7 @@ import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
-    <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
+    <section className="relative flex flex-col items-center justify-between mt-24 lg:mt-25 py-4 lg:py-12">
       <Image
         src="/hero.svg"
         alt="Hero"
@@ -89,18 +89,19 @@ function HeroSection() {
         
         
 
-        <div className="order-1 lg:order-2 item-center content-center relative rounded-lg bg-gradient-to-r">
+        <div className="order-1 lg:order-2 items-center content-center relative rounded-lg bg-gradient-to-r">
 
-          <div className="overflow-hidden px-4 lg:px-8 py-4 lg:py-8">
-            <Image
-                src="/developer-activity-animate.svg"
-                alt="Hero"
-                width={472}
-                height={795}
-                className="rounded-lg"
-            />
-          </div> 
+        <div className="overflow-hidden px-4 lg:px-8 py-4 lg:py-8">
+          <Image
+            src="/developer-activity-animate.svg"
+            alt="Hero"
+            width={472}
+            height={795}
+            className="rounded-lg transform scale-x-[-1] translate-x-6 lg:translate-x-12"
+          />
         </div>
+
+      </div>
       </div>
     </section>
   );
