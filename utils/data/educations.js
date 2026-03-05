@@ -8,7 +8,7 @@ export const educations = [
   {
     id: 2,
     title: "vocational school",
-    duration: "2015-2028",
+    duration: "2015-2018",
     institution: "SMK Ma'arif NU 1 Sumpiuh - Banyumas",
   },
   // {
