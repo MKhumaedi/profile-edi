@@ -28,8 +28,12 @@ function HeroSection() {
             <span className=" text-blue-500">{personalData.name}</span>
             {` , I'm a Professional `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
-            .
+            
           </h3>
+          <div className="text-0 leading-10 text-white lg:text-[1.6rem]">
+            <p>I build modern, scalable web applications using
+              React • Next.js • Node.js • Tailwind • MySQL</p>
+          </div>
 
           <div className="my-12 flex items-center gap-5">
             <Link

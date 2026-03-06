@@ -18,17 +18,19 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Who I am?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">
+          <p className="text-gray-200 text-sm lg:text-lg whitespace-pre-line text-justify">
             {personalData.description}
           </p>
         </div>
-        <Image
-          src={personalData.profile}
-          width={320}
-          height={400}
-          alt="Edi Dev"
-          className="rounded-xl object-cover transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-        />
+        <div className="flex justify-center order-1 lg:order-2">
+          <Image
+            src={personalData.profile}
+            width={320}
+            height={400}
+            alt="Edi Dev"
+            className="w-[260px] sm:w-[300px] lg:w-[320px] rounded-xl object-cover transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          />
+        </div>
       </div>
     </div>
   );
