@@ -6,7 +6,7 @@ export const projectsData = [
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
         role: 'Front-end Developer',
         code: '',
-        demo: '',
+        demo: 'https://baristalab.id/',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const projectsData = [
         tools: ['Wordpress'],
         role: 'Full Stack Developer',
         code: '',
-        demo: '',
+        demo: 'https://jasaperedamsuaramakassar.com/',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const projectsData = [
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
         code: '',
         role: 'Front-end Developer',
-        demo: '',
+        demo: 'https://privakom.net/',
     },
     {
         id: 4,
@@ -32,8 +32,9 @@ export const projectsData = [
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
         code: '',
-        demo: '',
         role: 'Front-end Developer',
+        demo: 'https://privakomtangerang.id/',
+        
     },
     {
         id: 5,
@@ -41,8 +42,8 @@ export const projectsData = [
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
         code: '',
-        demo: '',
         role: 'Front-end Developer',
+        demo: 'https://privakomkarawang.id/',
     },
     {
         id: 6,
@@ -50,8 +51,9 @@ export const projectsData = [
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
         code: '',
-        demo: '',
+        demo: 'https://jasaperedamsuara.com/',
         role: 'Front-end Developer',
+        
     },
     {
         id: 7,
@@ -59,8 +61,9 @@ export const projectsData = [
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
         code: '',
-        demo: '',
+        demo: 'https://www.kontraktorperedamsuaramakassar.com/',
         role: 'Front-end Developer',
+        
     },
     {
         id: 8,
@@ -68,8 +71,10 @@ export const projectsData = [
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer and backend Developer",
         tools: ['CodeIgniter', 'PHP', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'CRUD', 'MySQL'],
         code: '',
-        demo: '',
+        demo: 'https://privakom.net/',
         role: 'Full Stack Developer',
+        
+        
     }
 ];
 
