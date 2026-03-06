@@ -31,8 +31,8 @@ function HeroSection() {
             
           </h3>
           <div className="text-0 leading-10 text-white lg:text-[1.6rem]">
-            <p>I build modern, scalable web applications using
-              React • Next.js • Node.js • Tailwind • MySQL</p>
+            <p>I build modern, scalable web applications using </p>
+              <p>React • Next.js • Node.js • Tailwind • MySQL</p>
           </div>
 
           <div className="my-12 flex items-center gap-5">
