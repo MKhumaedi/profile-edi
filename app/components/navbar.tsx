@@ -27,54 +27,56 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-[9999] transition-all duration-300
-      ${scrolled || menuOpen ? "bg-black/30 backdrop-blur-md" : "bg-transparent"}`}
+      ${scrolled || menuOpen ? "bg-black/40 backdrop-blur-md shadow-md" : "bg-transparent"}`}
     >
-      {/* ✅ CONTAINER SAMA DENGAN HERO */}
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between py-5">
+      {/* Container */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
 
         {/* Logo */}
         <Link
           href="/"
-          className={`${pacifico.className} text-2xl md:text-3xl text-[#16f2b3] -ml-16`}
+          className={`${pacifico.className} text-xl sm:text-2xl md:text-3xl text-[#16f2b3]`}
         >
           M. Khumaedi
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-8 text-sm">
-          <li><Link href="#about" className="text-white hover:text-blue-500">ABOUT</Link></li>
-          <li><Link href="#experience" className="text-white hover:text-blue-500">EXPERIENCE</Link></li>
-          <li><Link href="#skills" className="text-white hover:text-blue-500">SKILLS</Link></li>
-          <li><Link href="#education" className="text-white hover:text-blue-500">EDUCATION</Link></li>
-          <li><Link href="#projects" className="text-white hover:text-blue-500">PROJECTS</Link></li>
+        <ul className="hidden md:flex items-center gap-6 lg:gap-8 text-sm lg:text-base">
+          <li><Link href="#about" className="text-white hover:text-blue-400 transition">ABOUT</Link></li>
+          <li><Link href="#experience" className="text-white hover:text-blue-400 transition">EXPERIENCE</Link></li>
+          <li><Link href="#skills" className="text-white hover:text-blue-400 transition">SKILLS</Link></li>
+          <li><Link href="#education" className="text-white hover:text-blue-400 transition">EDUCATION</Link></li>
+          <li><Link href="#projects" className="text-white hover:text-blue-400 transition">PROJECTS</Link></li>
         </ul>
 
         {/* Mobile Button */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-white text-2xl"
+          className="md:hidden text-white text-2xl focus:outline-none"
         >
-          ☰
+          {menuOpen ? "✕" : "☰"}
         </button>
       </div>
 
       {/* Mobile Menu */}
-      <ul
-        className={`absolute top-20 left-0 w-full bg-black/70 backdrop-blur-md md:hidden transition-all
-        ${menuOpen ? "block" : "hidden"}`}
+      <div
+        className={`md:hidden overflow-hidden transition-all duration-300
+        ${menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}
       >
-        {["about", "experience", "skills", "education", "projects"].map((item) => (
-          <li key={item} className="px-6 py-3">
-            <Link
-              onClick={closeMenu}
-              href={`#${item}`}
-              className="text-white hover:text-blue-500 uppercase"
-            >
-              {item}
-            </Link>
-          </li>
-        ))}
-      </ul>
+        <ul className="bg-black/80 backdrop-blur-md px-6 py-4 space-y-4">
+          {["about", "experience", "skills", "education", "projects"].map((item) => (
+            <li key={item}>
+              <Link
+                onClick={closeMenu}
+                href={`#${item}`}
+                className="block text-white hover:text-blue-400 uppercase transition"
+              >
+                {item}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 }
