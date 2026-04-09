@@ -31,27 +31,6 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Privakom Tangerang',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
-        code: '',
-        image:'/project/priva.png',
-        role: 'Front-end Developer',
-        demo: 'https://privakomtangerang.id/',
-        
-    },
-    {
-        id: 5,
-        name: 'Privakom Karawang',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
-        code: '',
-        image:'/project/priva.png',
-        role: 'Front-end Developer',
-        demo: 'https://privakomkarawang.id/',
-    },
-    {
-        id: 6,
         name: 'Jasa Peredam Suara',
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
@@ -62,7 +41,18 @@ export const projectsData = [
         
     },
     {
-        id: 7,
+        id: 5,
+        name: 'Privakom Tangerang',
+        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
+        tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
+        code: '',
+        image:'/project/priva.png',
+        role: 'Front-end Developer',
+        demo: 'https://privakomtangerang.id/',
+        
+    },
+    {
+        id: 6,
         name: 'Kontraktor Peredam Suara Mks',
         description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
         tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
@@ -71,6 +61,16 @@ export const projectsData = [
         demo: 'https://www.kontraktorperedamsuaramakassar.com/',
         role: 'Front-end Developer',
         
+    },
+     {
+        id: 7,
+        name: 'Privakom Karawang',
+        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
+        tools: ['Bootstrap 5', 'SCSS', 'CSS', 'HTML', 'JavaScript', 'JQuery', 'Google Tag', 'Google Search Console'],
+        code: '',
+        image:'/project/priva.png',
+        role: 'Front-end Developer',
+        demo: 'https://privakomkarawang.id/',
     },
     {
         id: 8,
