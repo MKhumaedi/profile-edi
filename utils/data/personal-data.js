@@ -1,5 +1,5 @@
 export const personalData = {
-  name: "Edi'S",
+  name: "Edi",
   profile: "/profile.png",
   designation: "Full-Stack Web Developer",
   description: `Hello, I'm M Khumaedi, a Full-Stack Web Developer with 4+ years of experience building modern, scalable, and high-performance web applications.
