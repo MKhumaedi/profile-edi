@@ -113,7 +113,7 @@ export const mKhumaedi = {
           <div className="lg:col-span-6 flex flex-col gap-6">
             <div className="bg-[#ecf0db]/60 p-8 rounded-3xl border border-[#c2caae]/50 text-[#191d11]">
               <h3 className="text-xl font-bold mb-4 text-[#191d11]">
-                Hello! I'm Khumaedi — a senior middle developer based in Jakarta.
+                Hello! I'm Khumaedi — a Full-Stack Web Developer & Data Specialist based in Jakarta.
               </h3>
               <p className="text-body-md text-[#424934] mb-4">
                 Over the past 5+ years, I have crafted high-impact web software ranging from real-time enterprise telemetry dashboards to full-stack e-commerce marketplaces and design systems.
