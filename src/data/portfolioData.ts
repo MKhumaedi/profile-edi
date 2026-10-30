@@ -18,7 +18,7 @@ export const PERSONAL_INFO = {
 export const METRICS: MetricItem[] = [
   { value: '45+', label: 'Projects Completed', sublabel: 'Web Apps & Data Analysis' },
   { value: '18+', label: 'Happy Clients', sublabel: 'Startups' },
-  { value: '5+', label: 'Years Experience', sublabel: 'IT Trainer, Full Stack & Data Analyst' },
+  { value: '5+', label: 'Years Experience', sublabel: 'Full Stack & Data Analyst' },
   { value: '24+', label: 'Technologies', sublabel: 'Mastered in Production' },
 ];
 
@@ -134,6 +134,38 @@ export const PROJECTS: Project[] = [
     githubUrl: 'https://github.com/MKhumaedi/tiketmu.git',
     challenge: '',
     solution: ''
+  },
+  {
+    id: 'everfresh',
+    title: 'EverFresh Company Profile & E-Commerce Platform',
+    category: 'WEB',
+    tags: ['React', 'PostgreSQL', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Redis'],
+    description: '',
+    fullDescription: '',
+    image: '/everfresh.png',
+    featured: false,
+    year: '2026',
+    metrics: '+35% Cart Checkout • PWA Ready',
+    liveUrl: 'https://everfresh.co.id/',
+    githubUrl: '',
+    challenge: '',
+    solution: ''
+  },
+  {
+    id: 'maystudio',
+    title: 'Maystudio Tools & Insights Platform',
+    category: 'WEB',
+    tags: ['React', 'PostgreSQL', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Redis'],
+    description: '',
+    fullDescription: '',
+    image: '/maystudio.png',
+    featured: false,
+    year: '2026',
+    metrics: '+35% Cart Checkout • PWA Ready',
+    liveUrl: 'https://maystudio.id/',
+    githubUrl: '',
+    challenge: '',
+    solution: ''
   }
 ];
 
@@ -189,10 +221,12 @@ export const EXPERIENCES: ExperienceItem[] = [
   {
     id: 'exp-1',
     period: 'February 2026 – Present',
-    role: 'IT & Infrastructure Staff',
+    role: 'IT Infrastructure Staff (Web Application Development &amp; Infrastructure)',
     company: 'PT. Global Niaga Internusa',
     location: 'South Jakarta, Indonesia',
     description: [
+      'Built an internal workflow web application (React, Node.js) to replace manual handovers between departments used by 25–50 employees.',
+      'Deployed and maintained internal apps and 12 company websites on cPanel hosting, including DNS routing and SSL certificate management.',
       'Provide IT support for hardware, software, and network systems.',
       'Manage and maintain company websites using WordPress.',
       'Configure domains, hosting, cPanel, and business email.',
@@ -201,15 +235,17 @@ export const EXPERIENCES: ExperienceItem[] = [
       'Manage company IT assets.',
       'Develop responsive internal web applications.'
     ],
-    skills: ['WordPress', 'cPanel', 'Networking', 'PHP', 'JavaScript', 'MySQL', 'HTML', 'CSS']
+    skills: ['React.js', 'Express.js', 'Node.js', 'TypeScript','PostgreSQL','VPS', 'cPanel', 'Networking', 'PHP', 'JavaScript', 'MySQL', 'HTML', 'CSS']
   },
   {
     id: 'exp-2',
     period: 'February 2023 – Present',
-    role: 'Part-time Web Developer & Data Analyst',
+    role: 'Freelance Full Stack Web Developer & Data Analyst (Via Fastwork)',
     company: 'PT. Fastwork Technologies Indonesia',
     location: 'Indonesia',
     description: [
+      'Delivered 20+ web projects for small business clients: company websites, admin dashboards, and booking/inventory features.',
+      'Built REST APIs with Node.js, Express, and Prisma; integrated Midtrans and Tripay payment gateways, plus WhatsAppd email notifications.',
       'Develop responsive web applications.',
       'Build systems using PHP and CodeIgniter.',
       'Manage MySQL databases.',
@@ -218,15 +254,16 @@ export const EXPERIENCES: ExperienceItem[] = [
       'Execute Google Ads and SEO optimization.',
       'Collaborate directly with clients.'
     ],
-    skills: ['HTML', 'CSS', 'JavaScript', 'PHP', 'CodeIgniter', 'MySQL', 'Google Ads', 'SEO']
+    skills: ['React.js', 'Express.js', 'Node.js', 'TypeScript','PostgreSQL','VPS','HTML', 'CSS','bootstrap', 'JavaScript', 'PHP', 'CodeIgniter', 'MySQL', 'Google Ads', 'SEO']
   },
   {
     id: 'exp-3',
     period: 'June 2023 – October 2025',
-    role: 'IT Trainer',
+    role: 'Lead Technical Instructor (Software Engineering)',
     company: 'PT. Internusa Alvindo Ventura',
     location: 'Indonesia',
     description: [
+      '● Trained 1,000+ participants (developers and corporate professionals) in full-stack web fundamentals: MVC patterns, JavaScript, PHP, MySQL, and Git branching workflows.',
       'Teach Website Development.',
       'Teach HTML, CSS, SCSS, JavaScript, jQuery.',
       'Teach PHP, Bootstrap, MySQL, CodeIgniter.',
@@ -235,7 +272,7 @@ export const EXPERIENCES: ExperienceItem[] = [
       'Teach Advanced Microsoft Excel & VBA.',
       'Teach Graphic Design.'
     ],
-    skills: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Bootstrap', 'MySQL', 'CodeIgniter', 'Excel', 'VBA', 'CorelDraw', 'Photoshop']
+    skills: ['bootstrap', 'HTML', 'CSS', 'JavaScript', 'PHP', 'Bootstrap', 'MySQL', 'CodeIgniter', 'Excel', 'VBA', 'CorelDraw', 'Photoshop']
   },
   {
     id: 'exp-4',
@@ -294,7 +331,7 @@ export const HIGHLIGHTS_DATA: HighlightItem[] = [
   {
     id: 'hl-1',
     title: '5+ Years of Professional Experience',
-    description: 'Experienced in IT Infrastructure, Technical Support, Web Development, Data Analysis, and Digital Solutions across multiple industries.',
+    description: 'Experienced in Full Stack Web Development, IT Infrastructure, Technical Support, Data Analysis, and Digital Solutions across multiple industries.',
     icon: 'award',
     tags: ['IT Infrastructure', 'Web Dev', 'Data Analysis', 'Tech Support']
   },
@@ -307,7 +344,7 @@ export const HIGHLIGHTS_DATA: HighlightItem[] = [
   },
   {
     id: 'hl-3',
-    title: 'IT Trainer & Mentor',
+    title: 'Technical Instructor & IT Trainer',
     description: 'Delivered professional training in Web Development, Microsoft Excel, Database, SEO, and Programming for students and professionals.',
     icon: 'users',
     tags: ['Web Dev Training', 'Excel & VBA', 'SEO', 'Database']
