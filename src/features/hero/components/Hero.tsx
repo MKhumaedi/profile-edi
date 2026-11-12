@@ -127,8 +127,8 @@ export const Hero: React.FC = () => {
               </a>
 
               <a
-                href="/CV_M_Khumaedi_ITTrainer_FullStackDev.pdf"
-                download="CV_M_Khumaedi_ITTrainer_FullStackDev.pdf"
+                href="/CV_M_Khumaedi_FullStackDev.pdf"
+                download="CV_M_Khumaedi_FullStackDev.pdf"
                 className="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold text-[#476800] hover:underline cursor-pointer"
               >
                 <Download className="w-3.5 h-3.5" />
